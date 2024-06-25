@@ -1,8 +1,8 @@
 {
   "name": "@lwahonen/ffi-napi",
-  "version": "4.0.13",
+  "version": "4.0.14",
   "license": "MIT",
-  "author": "LWAhonen@github",
+  "author": "calumsult@gmail.com",
   "contributors": [
     "Rick Branson <rick@diodeware.com>",
     "Nathan Rajlich <nathan@tootallnate.net>",
@@ -21,9 +21,9 @@
     "napi",
     "stable"
   ],
-  "homepage": "http://github.com/node-ffi-napi/node-ffi-napi",
+  "homepage": "https://github.com/node-ffi-napi/node-ffi-napi",
   "engines": {
-    "node": ">=12.22.12"
+    "node": ">=22.0.0"
   },
   "main": "./lib/ffi",
   "dependencies": {
@@ -44,13 +44,13 @@
   },
   "scripts": {
     "install": "node-gyp-build",
-    "prebuild": "prebuildify -t 12.22.12 -t 13.14.0 -t 14.18.3 -t 14.20.1 -t 14.21.2 -t 15.14.0 -t 16.19.0 -t 17.9.1 -t 18.12.1 -t 19.3.0 --napi --tag-armv --tag-uv --tag-libc"
+    "prebuild": "prebuildify -t 22.0.0 --napi --tag-armv --tag-uv --tag-libc"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/lwahonen/node-ffi-napi.git"
+    "url": "https://github.com/calumsult/node-ffi-napi"
   },
   "bugs": {
-    "url": "http://github.com/node-ffi-napi/node-ffi-napi/issues"
+    "url": "https://github.com/calumsult/node-ffi-napi/issues"
   }
 }
