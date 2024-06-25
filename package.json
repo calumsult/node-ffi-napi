@@ -1,5 +1,5 @@
 {
-  "name": "@lwahonen/ffi-napi",
+  "name": "@calumsult/ffi-napi",
   "version": "4.0.14",
   "license": "MIT",
   "author": "calumsult@gmail.com",
@@ -33,6 +33,11 @@
     "@lwahonen/ref-napi": "^4.0.8",
     "ref-struct-di": "^1.1.0",
     "node-gyp-build": "^4.5.0"
+  },
+  "overrides": {
+    "@lwahonen/ref-napi": {
+      "node-addon-api": "8.0.0"
+    }
   },
   "devDependencies": {
     "prebuildify": "^5.0.1",
