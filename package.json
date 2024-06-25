@@ -29,7 +29,7 @@
   "dependencies": {
     "debug": "^4.1.1",
     "get-uv-event-loop-napi-h": "^1.0.5",
-    "node-addon-api": "^3.2.1",
+    "node-addon-api": "8.0.0",
     "@lwahonen/ref-napi": "^4.0.8",
     "ref-struct-di": "^1.1.0",
     "node-gyp-build": "^4.5.0"
