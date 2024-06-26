@@ -1,6 +1,6 @@
 {
   "name": "@calumsult/ffi-napi",
-  "version": "4.0.15",
+  "version": "4.0.16",
   "license": "MIT",
   "author": "calumsult@gmail.com",
   "contributors": [
@@ -49,7 +49,7 @@
   },
   "scripts": {
     "install": "node-gyp-build",
-    "prebuild": "prebuildify -t 22.0.0 --napi"
+    "prebuild": "prebuildify -t 22.0.0 --napi --tag-uv --tag-libc"
   },
   "repository": {
     "type": "git",
